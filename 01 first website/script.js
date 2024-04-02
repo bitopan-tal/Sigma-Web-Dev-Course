@@ -1,0 +1,1 @@
+alert("Welcome, are you ready for the journey?")
