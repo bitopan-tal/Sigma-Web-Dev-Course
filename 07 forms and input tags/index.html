@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms and Input tags</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Forms and Input tags</h2>
+  <form action="backend.php">
+  
+  <div>
+    <label for="name">name</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <br>
+  <div>
+    <label for="rollNo">rollNo</label>
+    <input type="number" name="rollNo" id="rollNo">
+  </div>
+  <br>
+  <div>
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <br>
+  <div>
+   
+    <input type="checkbox" name="student" id="scholarship">
+    <label id="lightred" for="scholarship">Select if you are applied for any scholarship</label>
+  </div>
+  <br>
+  <div>
+   <span>Select your Correct Semester</span>
+  <select name="semesterno" id="semesterno">
+   
+    <option value="1">1st semester</option>
+    <option value="2" selected>2nd semester</option>
+    <option value="3">3rd semester</option>
+    <option value="4">4th semester</option>
+    <option value="5">5th semester</option>
+    <option value="6">6th semester</option>
+    <option value="7">7th semester</option>
+    <option value="8">8th semester</option>
+  </select>
+  </div>
+  <br>
+
+  <input type="reset" value="Reset" id="reset">
+  <input type="submit" value="Submit" id="submit">
+  </form>
+<script src="script.js">script.js</script>
+</body>
+
+</html>
