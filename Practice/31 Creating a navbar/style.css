@@ -1,8 +1,17 @@
+:root{
+  --bodycolor:  #267D90;
+  --bodyshadow: #206F81;
+  --shadow: #303030;
+  --seccolor: #89B67B;
+  --textcolor: #FFFFFF;
+}
+
+
     body {
       margin: 40px 70px 2000px 70px;
       padding: 0;
-      background-color: #267D90;
-      color: white;
+      background-color: var(--bodycolor);
+      color: var(--textcolor);
       /* border: 2px solid blue; */
     }
 
@@ -11,9 +20,9 @@
       margin: 23px;
       position: fixed;
       top: 35px;
-      background-color: #2C7B8E;
+      background-color: var(--bodycolor);
       border-radius: 17px;
-      box-shadow: 1px 1px 20px 0px #303030;
+      box-shadow: 1px 1px 20px 0px var(--shadow);
     }
 
     .url {
@@ -33,7 +42,7 @@
       text-align: center;
       margin-top: 9vh;
       padding: 5px 10px 27px 10px;
-      background-color: #206F81;
+      background-color: var(--bodyshadow);
       border-radius: 25px;
     }
     
@@ -45,6 +54,6 @@
   border-radius: 18px;
   /* margin-bottom: 200px; */
   padding: 1px 25px 1px 25px;
-  background-color: #89B67B;
-  color: #FFFFFF;
+  background-color: var(--seccolor);
+  color: var(--textcolor);
 }
