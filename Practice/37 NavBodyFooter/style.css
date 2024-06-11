@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+:root {
+  --bgseccolor: #9BA2EE;
+  --bgpricolor: #1B112F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  background-color: var(--bgpricolor);
+  min-height: 120vh;
+  width: 100vw;
+}
+
+.head {
+  background-color: var(--bgseccolor);
+  display: flex;
+  position: sticky;
+  top: 0px;
+  margin-top: 2px;
+  box-shadow: 1px 0 7px 0 #4E5150;
+}
+
+div ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 0 5vw 0 5vw;
+  font-size: 12px;
+}
+
+.box {
+  height: 80vh;
+  width: 40vw;
+  border: 1px solid #7AFFC9;
+  display: inline-block;
+  margin:
+}
+
+.body {
+  background-color: #67DAAB;
+  margin: 4vw;
+
+}
+
+.box1 {
+  background-color: #FFA99E;
+}
+
+.box2 {
+  background-color: #39B5FF;
+}
+
+.welcome {
+  border: 1px solid #4E5150;
+  border-radius: 3vw;
+  font-size: 10vw;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: peru;
+  margin: 3vw 7vw 7vw 7vw;
+  text-align: center;
+  background-color: #362856;
+}
+
+img {
+  width: 8vw;
+  border-radius: 8vw;
+  position: fixed;
+  margin-left: 91vw;
+  float: right;
+}
+
+footer div {
+  height: 15px;
+  background-color: var(--bgseccolor);
+}
