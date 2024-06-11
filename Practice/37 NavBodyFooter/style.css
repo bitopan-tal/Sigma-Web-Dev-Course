@@ -38,12 +38,15 @@ div ul li {
   width: 40vw;
   border: 1px solid #7AFFC9;
   display: inline-block;
-  margin:
+  margin: 2vw;
 }
 
 .body {
   background-color: #67DAAB;
   margin: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
